@@ -1,0 +1,75 @@
+@media (max-width: 800px) {
+    .lamp {
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .lamp {
+        max-width: 250px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.banner {
+    height: 100%;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.banner img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 30px auto;
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.lamp {
+    border: 1px solid #c5c5c5;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.lamp img {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #eaeaea;
+}
+
+.lamp_bot {
+    margin: 0 0 0 15px;
+    height: 70px;
+}
+
+.name {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.price {
+    color: #828282;
+    font-size: 20px;
+}
